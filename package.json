@@ -1,0 +1,31 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "https://kriss506.github.io/calculator/",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --global fns",
+    "build": "parcel build index.html",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kriss506/calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kriss506/calculator/issues"
+  },
+  "homepage": "https://github.com/kriss506/calculator#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": [
+    "last 1 chrome version"
+  ]
+}
